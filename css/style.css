@@ -1,0 +1,255 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+#header #tagline div, #header nav ul, #header #section {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+#header #section {
+  overflow: hidden;
+}
+
+#header {
+  background: #274f75;
+}
+#header #section {
+  height: 150px;
+}
+#header #section div {
+  float: left;
+}
+#header #section div a {
+  display: block;
+}
+#header #section div a img {
+  margin-top: 50px;
+  vertical-align: middle;
+}
+#header #section span {
+  margin-top: 50px;
+  color: #fff;
+  display: block;
+  float: right;
+  line-height: 150px;
+}
+#header #section span p {
+  line-height: 18px;
+}
+#header #section span p:first-child {
+  margin-bottom: 15px;
+}
+#header nav {
+  background: #82bc0e;
+  border-bottom: 1px solid #c31408;
+}
+#header nav ul {
+  display: flex;
+}
+#header nav ul li a {
+  display: block;
+  padding: 12px 25px;
+  text-decoration: none;
+  color: #274f75;
+  font-size: 16px;
+  font-family: "Arial", sans-serif;
+  text-transform: capitalize;
+  position: relative;
+}
+#header nav ul li a:hover {
+  background: #fff;
+}
+#header nav ul li a:hover::after {
+  background: #c31408;
+}
+#header nav ul li a::after {
+  content: "";
+  height: 6px;
+  width: 100%;
+  background: transparent;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  transition: background 0.3s;
+}
+#header #tagline {
+  background: url("../images/bg-header2.jpg");
+  background-position-x: center;
+  min-height: 450px;
+}
+#header #tagline div {
+  padding-top: 105px;
+  font-size: 60px;
+  font-family: Arial;
+  font-weight: 700;
+  color: #274f75;
+  /* max-width: 445px; */
+  line-height: 76px;
+  margin-bottom: 30px;
+  width: 940px;
+}
+#header #tagline div h1 {
+  width: 450px;
+}
+#header #tagline p {
+  font-family: "Arial", sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  color: #274f75;
+  max-width: 340px;
+  line-height: 35px;
+}
+
+#content div#home {
+  background: url(../images/bg-home.gif) no-repeat top center;
+  margin: 0 auto 0;
+  min-height: 174px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 960px;
+}
+
+#home {
+  width: 960px;
+  margin: 0 auto;
+  font-family: Arial;
+  line-height: 1.4;
+  color: #585858;
+}
+#home div h1 {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 27px;
+}
+#home div h1 span {
+  color: #c31408;
+  font-weight: 900;
+}
+#home div h2,
+#home div h2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#home div h2 span,
+#home div h2 a span {
+  color: #c31408;
+  font-weight: 900;
+}
+#home div h3 {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #c31408;
+  font-weight: 900;
+}
+#home div .clear {
+  clear: both;
+}
+#home div #aside {
+  float: left;
+  width: 570px;
+  margin-right: 20px;
+  margin-left: 45px;
+}
+#home div #aside div:first-child {
+  margin-bottom: 20px;
+}
+#home div #aside img {
+  float: left;
+  margin-right: 15px;
+  padding: 9px;
+  border: 1px solid #c31408;
+}
+#home div #aside p {
+  text-align: justify;
+  line-height: 28px;
+}
+#home div #aside ul {
+  clear: both;
+}
+#home div #aside ul li {
+  float: left;
+  width: 260px;
+}
+#home div #aside ul li:first-child {
+  margin-right: 20px;
+}
+#home div #calendar {
+  float: left;
+  width: 305px;
+}
+#home div #calendar ul li {
+  padding: 10px 0;
+}
+#home div #calendar p {
+  border-bottom: 1px solid #c2c2c2;
+  color: #5e5e5e;
+  line-height: 25px;
+  padding: 15px 0;
+  text-align: justify;
+}
+#home div #calendar span {
+  background: #274e75;
+  color: #fefeff;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 5px;
+  padding: 3px 5px;
+  text-align: right;
+}
+#home div #calendar h2,
+#home div #calendar h2 a {
+  font-size: 18px;
+  color: #274f75;
+}
+
+/*# sourceMappingURL=style.css.map */

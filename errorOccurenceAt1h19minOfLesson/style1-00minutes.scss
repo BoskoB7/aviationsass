@@ -1,0 +1,28 @@
+@import 'reset.scss';
+@import 'variables.scss';
+
+#header {
+    background: $primary_color;
+       #section {
+        @extend %container;
+        @extend %clearFloat;
+        height: 150px;
+
+        div {
+            float: left;
+
+        }
+        
+        span {
+            color: #fff;
+            display: block;
+            float: right;
+            line-height: 30px;
+        }
+
+    } 
+   // ul {
+    //    clear: both;
+  //  } 
+}
+    

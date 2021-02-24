@@ -1,0 +1,26 @@
+@import 'reset.scss';
+@import 'variables.scss';
+
+#header {
+    background: $primary_color;
+       #section {
+        @extend %container;
+        
+
+        div {
+            float: left;
+
+        }
+        
+        span {
+            color: #fff;
+            display: block;
+            float: right;
+        }
+
+    } 
+    ul {
+        clear: both;
+    } 
+}
+    

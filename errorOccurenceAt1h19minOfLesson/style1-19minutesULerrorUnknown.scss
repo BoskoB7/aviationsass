@@ -1,0 +1,45 @@
+@import 'reset.scss';
+@import 'variables.scss';
+
+#header {
+    background: $primary_color;
+       #section {
+        @extend %container;
+        @extend %clearFloat;
+        height: 150px;
+
+        div {
+            float: left;
+
+            a {
+                display: block;
+
+                img {
+margin-top: 50px;
+                    vertical-align: middle;
+                }
+            }
+        }
+        
+        span {
+            margin-top: 50px;
+            color: #fff;
+            display: block;
+            float: right;
+            line-height: 150px;
+
+            p {
+                line-height: 18px;
+
+                &:first-child {
+                    margin-bottom: 15px;
+                }
+            }
+        }
+
+    } 
+   ul {
+       background: $nav_bg;
+  } 
+}
+    
